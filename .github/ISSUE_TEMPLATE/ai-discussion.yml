@@ -78,11 +78,11 @@ body:
   - type: textarea
     id: sources
     attributes:
-      label: Sources
-      description: Public sources supporting the thesis. Normative proposals may cite documents or precedents; if none, write "n/a - normative proposal".
+      label: Sources (optional)
+      description: Public sources supporting the thesis. Normative proposals may omit sources; if so, keep verification at unverified. Promotion still requires a source.
       placeholder: "https://llmstxt.org/"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: thesis

@@ -1,5 +1,6 @@
 # local agent runtime directories (never commit)
 .*_rpc*/
+/inbox/
 
 # local-only operations status (may contain machine-specific paths)
 OPS_STATUS.md

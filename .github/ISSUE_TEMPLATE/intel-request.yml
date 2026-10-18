@@ -83,11 +83,11 @@ body:
   - type: textarea
     id: sources
     attributes:
-      label: Sources
-      description: One URL or public literature reference per line. If none, write "none yet" and describe the search scope.
+      label: Sources (optional)
+      description: One URL or public literature reference per line. Optional at submission; a parseable source is required before promotion to the static index.
       placeholder: "https://example.org/report\nhttps://example.org/dataset"
     validations:
-      required: true
+      required: false
 
   - type: input
     id: needed_by

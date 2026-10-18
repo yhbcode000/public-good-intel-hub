@@ -129,9 +129,7 @@ def validate(fields):
         errors.append("license_intent must be one of: " + ", ".join(LICENSES))
     if fields["type"] not in ISSUE_TYPES:
         errors.append("type must be one of: " + ", ".join(ISSUE_TYPES))
-    if not fields.get("sources"):
-        errors.append("at least one source URL/reference is required")
-    if fields["type"] == "intel-offer" and fields.get("sources") and len(fields["sources"]) < 1:
+    if fields["type"] == "intel-offer" and not fields.get("sources"):
         errors.append("intel-offer needs at least one source")
     if not fields.get("prohibited_ack"):
         errors.append("prohibited_ack must be true")
@@ -167,8 +165,11 @@ def build_body(fields):
     lines += ["## Structured fields", "", "```yaml"]
     for key, value in structured.items():
         if isinstance(value, list):
-            lines.append("%s:" % key)
-            lines.extend("  - %s" % json.dumps(str(item), ensure_ascii=False) for item in value)
+            if value:
+                lines.append("%s:" % key)
+                lines.extend("  - %s" % json.dumps(str(item), ensure_ascii=False) for item in value)
+            else:
+                lines.append("%s: []" % key)
         elif isinstance(value, bool):
             lines.append("%s: %s" % (key, "true" if value else "false"))
         else:

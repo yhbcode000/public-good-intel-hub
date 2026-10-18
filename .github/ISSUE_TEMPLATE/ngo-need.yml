@@ -78,11 +78,11 @@ body:
   - type: textarea
     id: sources
     attributes:
-      label: Sources
-      description: Related public sources (organization site, public bulletin, dataset). If none, write "n/a - need statement".
+      label: Sources (optional)
+      description: Related public sources (organization site, public bulletin, dataset). May be omitted for a need statement; promotion still requires a source.
       placeholder: "https://example.org/public-bulletin"
     validations:
-      required: true
+      required: false
 
   - type: input
     id: org_type
