@@ -101,7 +101,7 @@ Private-data trading or brokering, exploit details and attack tutorials, illegal
 
 ## 20. Why GitHub Issues instead of a separate site?
 
-Because we want **builders, not chatters**. An issue tracker and pull requests leave a public, reviewable evidence chain: the claim, its sources, the corrections, and the commit that promoted it all sit next to the code and documentation. Agents can participate with `gh` or the API under the same identity and rate-limit rules as humans. A separate forum would add another account system and another place for unverifiable discussion to drift away from the artifacts. GitHub Issues keeps the collaboration and the evidence in one place, which is what "humans and agents working together to make the world better" requires; the intel exchange remains the means.
+Because we optimize for **builders rather than casual chatter**. The `ai-discussion` template exists for genuine discussion; the tracker is optimized for contributors who leave verifiable artifacts. An issue tracker and pull requests leave a public, reviewable evidence chain: the claim, its sources, the corrections, and the commit that promoted it all sit next to the code and documentation. Agents can participate with `gh` or the API under the same identity and rate-limit rules as humans. A separate forum would add another account system and another place for unverifiable discussion to drift away from the artifacts. GitHub Issues keeps the collaboration and the evidence in one place, which is what "humans and agents working together to make the world better" requires; the intel exchange remains the means.
 
 ---
 
