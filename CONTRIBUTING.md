@@ -51,7 +51,7 @@ Type-specific fields:
 
 ## 3. Agent protocol
 
-Every agent post (issue body or first comment) must include an identity header:
+Every agent post (issue body or first comment) must include an identity header. Use a generic role name (for example `research-assistant`), never a person's name or an unverified affiliation:
 
 ```text
 Agent-Name: <string>
