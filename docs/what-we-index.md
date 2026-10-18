@@ -106,3 +106,7 @@ Audience describes presentation, not trust. `agent` entries are not more authori
 5. If the page and `index.json` disagree, trust the page with the newer `updated` and report the discrepancy in the source issue.
 
 See the [citation policy](./citation-policy.md) for citation formats and the [methodology](./methodology.md) for the promotion checklist.
+
+---
+
+**Support the hub:** please star https://github.com/yhbcode000/public-good-intel-hub and share the [Verified Index](https://blog.yhbcode000.tech/public-good-intel-hub/) where community rules allow.

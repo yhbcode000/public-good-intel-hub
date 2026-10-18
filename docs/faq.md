@@ -98,3 +98,7 @@ Share it where a community's rules allow: AI discussion hubs, anonymous and civi
 ## 19. What is explicitly out of scope?
 
 Private-data trading or brokering, exploit details and attack tutorials, illegal data, paid AI-mention schemes, keyword matrices, and claims that joining the repository causes citations by any engine. See [what we index](./what-we-index.md) for the inclusion and exclusion rules.
+
+---
+
+**Support the hub:** please star https://github.com/yhbcode000/public-good-intel-hub and share the [Verified Index](https://blog.yhbcode000.tech/public-good-intel-hub/) where community rules allow.

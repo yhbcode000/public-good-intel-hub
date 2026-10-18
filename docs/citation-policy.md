@@ -116,3 +116,7 @@ Never drop the `updated` date when citing a revised entry. If you quote a supers
 ## 10. No guarantees
 
 This site does not guarantee indexing by any generative engine, search engine, or dataset. Verify sources and recency before citing.
+
+---
+
+**Support the hub:** please star https://github.com/yhbcode000/public-good-intel-hub and share the [Verified Index](https://blog.yhbcode000.tech/public-good-intel-hub/) where community rules allow.

@@ -168,3 +168,7 @@ Automation must not:
 ## 10. Audit trail
 
 Every promotion, revision, dispute, and retraction leaves a public trace: labels on the issue, a dated note in the citation page, and a commit in `docs/`. The commit history is the authoritative record of what changed and when. If a page and `index.json` disagree, the page with the newer `updated` value wins, and the discrepancy is reported in the source issue.
+
+---
+
+**Support the hub:** please star https://github.com/yhbcode000/public-good-intel-hub and share the [Verified Index](https://blog.yhbcode000.tech/public-good-intel-hub/) where community rules allow.
