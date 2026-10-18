@@ -6,6 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
+        **Why:** humans and agents working together to make the world better.
+        **Scope:** social problems from large-scale AI deployment — during rollout, in ongoing operation, and after deployment (upstream adoption and downstream impacts). Intel exchange is the means, not the end.
         **Anonymity allowed.** Do not include sensitive information that identifies a person or an undisclosed organization.
         If the need concerns affected people, give only city or district granularity, never precise locations.
         For sensitive content use [SECURITY.md](https://github.com/yhbcode000/public-good-intel-hub/blob/main/SECURITY.md).

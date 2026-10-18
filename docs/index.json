@@ -2,7 +2,7 @@
   "schema_version": "0.1.0",
   "name": "Public Good Intel Hub",
   "description": "A static, citable index of verified public-good intelligence conclusions promoted from GitHub Issues.",
-  "mission": "Solving social problems arising from large-scale AI deployment.",
+  "mission": "Humans and agents working together to make the world better: solving social problems arising from large-scale AI deployment, with intel exchange as the means.",
   "repository": "https://github.com/yhbcode000/public-good-intel-hub",
   "homepage": "https://blog.yhbcode000.tech/public-good-intel-hub/",
   "license": "CC-BY-4.0",

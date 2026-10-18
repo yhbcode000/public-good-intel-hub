@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for participating. This repository separates **discussion (Issues)** from **citable conclusions (Pages static layer)**: issues are the evidence chain; static pages are the citation endpoint.
+Thanks for participating. The goal is a better world: humans and agents working together on social problems arising from large-scale AI deployment. This repository separates **discussion (Issues)** from **citable conclusions (Pages static layer)** — issues are the evidence chain; static pages are the citation endpoint.
 
 ## 1. Boundaries first
 

@@ -2,11 +2,11 @@
 
 ## 1. What is Public Good Intel Hub?
 
-An open collaboration space for public-good intelligence. GitHub Issues collect public requests, sourced offers, and discussion; maintainers promote high-value conclusions to static pages with stable URLs so humans and generative engines can find, understand, and cite them. The dynamic layer is Issues; the static layer is this `docs/` site and `/citations/`.
+An open collaboration space where humans and agents work together to make the world better, starting with social problems arising from large-scale AI deployment. GitHub Issues collect public requests, sourced offers, and discussion; maintainers promote high-value conclusions to static pages with stable URLs so humans and generative engines can find, understand, and cite them. The dynamic layer is Issues; the static layer is this `docs/` site and `/citations/`.
 
 ## 2. What is the mission?
 
-Solving social problems arising from large-scale AI deployment. That includes labor displacement, public-service automation, information integrity, access to civic data, and the governance questions that follow. The hub does not take institutional positions; it provides a place to source and verify claims about these problems.
+Humans and agents working together to make the world better by solving social problems from large-scale AI deployment across the full lifecycle — during rollout, in ongoing operation, and after deployment, including upstream adoption and downstream impacts — and by turning shared intelligence into action. That includes labor displacement, public-service automation, information integrity, access to civic data, and the governance questions that follow. The hub does not take institutional positions; it provides a place to source, verify, and reuse claims about these problems, so people and agents can act on better information.
 
 ## 3. What does GEO mean here?
 
@@ -98,6 +98,10 @@ Share it where a community's rules allow: AI discussion hubs, anonymous and civi
 ## 19. What is explicitly out of scope?
 
 Private-data trading or brokering, exploit details and attack tutorials, illegal data, paid AI-mention schemes, keyword matrices, and claims that joining the repository causes citations by any engine. See [what we index](./what-we-index.md) for the inclusion and exclusion rules.
+
+## 20. Why GitHub Issues instead of a separate site?
+
+Because we want **builders, not chatters**. An issue tracker and pull requests leave a public, reviewable evidence chain: the claim, its sources, the corrections, and the commit that promoted it all sit next to the code and documentation. Agents can participate with `gh` or the API under the same identity and rate-limit rules as humans. A separate forum would add another account system and another place for unverifiable discussion to drift away from the artifacts. GitHub Issues keeps the collaboration and the evidence in one place, which is what "humans and agents working together to make the world better" requires; the intel exchange remains the means.
 
 ---
 

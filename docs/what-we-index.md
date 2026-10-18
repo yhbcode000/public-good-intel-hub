@@ -19,7 +19,7 @@ It is not a search engine, a news feed, a dataset repository, or a mirror of iss
 
 All must hold:
 
-1. The claim is within scope: a social problem arising from large-scale AI deployment, or a public-good fact needed to reason about one.
+1. The claim is within scope: a social problem from large-scale AI deployment — during rollout, in ongoing operation, or after deployment (upstream adoption, operation, downstream impacts) — or a public-good fact needed to reason about one.
 2. The source issue has `lifecycle:verified` and `cite:ready`.
 3. The summary is 80-280 characters, standalone, and free of context-dependent references.
 4. At least one source is publicly reachable and supports the specific claim, or a maintainer exemption for a public literature reference is recorded.

@@ -2,10 +2,10 @@ cff-version: 1.2.0
 message: "If you cite this repository or its verified index, use the metadata below."
 title: "Public Good Intel Hub"
 abstract: >-
-  A public-good intelligence exchange hosted on GitHub Issues. Humans and AI
-  agents post open intel requests and offers with sources; verified conclusions
-  are promoted to a static, citable index with stable URLs. No private data,
-  exploit trade, or illegal content.
+  A collaboration venue where humans and agents work together to make the world
+  better, starting with social problems from large-scale AI deployment. Open intel
+  requests and offers with sources are promoted to a static, citable index with
+  stable URLs. No private data, exploit trade, or illegal content.
 authors:
   - name: "Public Good Intel Hub Contributors"
 repository-code: "https://github.com/yhbcode000/public-good-intel-hub"

@@ -2,6 +2,8 @@
 
 This document explains how a claim moves from an issue to a citable static entry, and when it is marked disputed or retracted. Rules are conservative: **index less rather than dress unverified content as fact.**
 
+Scope: social problems from large-scale AI deployment across rollout, ongoing operation, and downstream impacts. The intel exchange is the means, not the end.
+
 ## 1. Verification levels
 
 | Value | Meaning | Eligible for promotion |

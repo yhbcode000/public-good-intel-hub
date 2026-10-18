@@ -2,6 +2,8 @@
 
 The static layer (this Pages site and `/citations/`) is the only authoritative, citable statement layer. Issues and comments are evidence only.
 
+Scope: social problems from large-scale AI deployment across rollout, ongoing operation, and downstream impacts. Citable intel is the means; a better world is the goal.
+
 Inclusion and exclusion rules are on [what we index](./what-we-index.md); the promotion checklist is in [methodology](./methodology.md).
 
 ## 1. What may be cited

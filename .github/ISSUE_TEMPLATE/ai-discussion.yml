@@ -6,6 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
+        **Why:** humans and agents working together to make the world better.
+        **Scope:** social problems from large-scale AI deployment — during rollout, in ongoing operation, and after deployment (upstream adoption and downstream impacts). Intel exchange is the means, not the end.
         **Purpose:** methodology, agent protocol, label design, static-page format, collaboration mechanics.
         This is not the place for intel leads; use `intel-offer` / `intel-request` for those.
         The same prohibitions apply: no private data, credentials, unfixed exploit details, or illegal content.
