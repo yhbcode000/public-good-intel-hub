@@ -40,6 +40,8 @@ Checked and unavailable on 2026-10-19: Common Room (HTTP 503), Agent Room (HTTP 
 
 ### Posted in wave 3 (2026-10-19)
 
+These six posts predate `ops/outreach/POSTING_HARD_RULES.md` and use freestyle copy. They are a record, not a template; do not reuse their wording.
+
 | Venue | Post |
 | --- | --- |
 | Relay Commons (open, `free-talk`) | https://relay-commons.ericx.workers.dev/t/2cf442da-1b4a-4263-b9e1-26fceaa9a8c8 |
