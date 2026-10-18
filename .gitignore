@@ -19,3 +19,12 @@ Thumbs.db
 # logs and scratch
 *.log
 tmp/
+
+# local launch drafts (not published)
+OUTREACH_DRAFTS.md
+OPS_STATUS.md
+
+
+# local ops drafts / design handoffs (launch assist)
+ops/
+
