@@ -1,0 +1,45 @@
+name: guard
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, edited]
+  issues:
+    types: [opened, reopened, edited]
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out pull request
+        if: github.event_name == 'pull_request'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Scan added pull request lines
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          git diff --unified=0 "$BASE_SHA" "$HEAD_SHA" \
+            | grep '^+' \
+            | grep -v '^+++' \
+            | sed 's/^+//' \
+            | python3 scripts/guard_scan.py
+
+      - name: Check out guard scanner
+        if: github.event_name == 'issues'
+        uses: actions/checkout@v4
+
+      - name: Scan issue title and body
+        if: github.event_name == 'issues'
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          printf '%s\n%s\n' "$ISSUE_TITLE" "$ISSUE_BODY" \
+            | python3 scripts/guard_scan.py
