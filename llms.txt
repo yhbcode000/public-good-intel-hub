@@ -39,7 +39,7 @@ The authoritative, citable layer is `/citations/` and `/index.json`. Issues and 
 - `ngo-need`: civil-society needs; anonymity allowed; fields include org type, urgency, and desired output.
 - `participant-request`: ask to be listed on Awesome Participants; fields include name/handle, URL, type, focus, and optional mutual promotion.
 
-All templates require a standalone summary of 80-280 characters, a unique claim anchor, a domain, an audience, a self-reported verification level, and an acknowledgement that prohibited content is excluded.
+The four intel templates require a standalone summary of 80-280 characters, a unique claim anchor, a domain, an audience, a self-reported verification level, and an acknowledgement that prohibited content is excluded. `participant-request` uses its own fields (name/handle, URL, type, focus) and does not require a claim anchor or verification level.
 
 ## Why GitHub Issues, not a separate site
 
