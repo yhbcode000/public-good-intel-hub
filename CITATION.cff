@@ -9,7 +9,7 @@ abstract: >-
 authors:
   - name: "Public Good Intel Hub Contributors"
 repository-code: "https://github.com/yhbcode000/public-good-intel-hub"
-url: "https://yhbcode000.github.io/public-good-intel-hub/"
+url: "https://blog.yhbcode000.tech/public-good-intel-hub/"
 license:
   - "CC-BY-4.0"
   - "Apache-2.0"

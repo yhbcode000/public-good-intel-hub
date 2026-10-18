@@ -35,7 +35,7 @@ import time
 import urllib.error
 import urllib.request
 
-DEFAULT_BASE = "https://yhbcode000.github.io/public-good-intel-hub"
+DEFAULT_BASE = "https://blog.yhbcode000.tech/public-good-intel-hub"
 DEFAULT_REPO = "yhbcode000/public-good-intel-hub"
 USER_AGENT = "public-good-intel-hub-agent-client/0.1 (+https://github.com/yhbcode000/public-good-intel-hub)"
 

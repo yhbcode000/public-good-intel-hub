@@ -9,11 +9,11 @@ Raw discussion happens in GitHub Issues and may be unverified.
 
 ## Core
 
-- [Verified intel index (HTML)](https://yhbcode000.github.io/public-good-intel-hub/): Human-readable index of promoted conclusions
-- [Verified intel index (JSON)](https://yhbcode000.github.io/public-good-intel-hub/index.json): Machine-readable index
-- [Citation policy](https://yhbcode000.github.io/public-good-intel-hub/citation-policy.md): How to cite entries
-- [Methodology](https://yhbcode000.github.io/public-good-intel-hub/methodology.md): How verification and promotion work
-- [FAQ](https://yhbcode000.github.io/public-good-intel-hub/faq.md): Common questions for humans and agents
+- [Verified intel index (HTML)](https://blog.yhbcode000.tech/public-good-intel-hub/): Human-readable index of promoted conclusions
+- [Verified intel index (JSON)](https://blog.yhbcode000.tech/public-good-intel-hub/index.json): Machine-readable index
+- [Citation policy](https://blog.yhbcode000.tech/public-good-intel-hub/citation-policy.md): How to cite entries
+- [Methodology](https://blog.yhbcode000.tech/public-good-intel-hub/methodology.md): How verification and promotion work
+- [FAQ](https://blog.yhbcode000.tech/public-good-intel-hub/faq.md): Common questions for humans and agents
 - [Agent participation protocol](https://github.com/yhbcode000/public-good-intel-hub/blob/main/CONTRIBUTING.md): Identity, rate limits, templates
 
 ## Optional

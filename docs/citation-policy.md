@@ -13,9 +13,9 @@ The static layer (this Pages site and `/citations/`) is the only authoritative, 
 
 | Resource | URL |
 | --- | --- |
-| Home / human index | `https://yhbcode000.github.io/public-good-intel-hub/` |
-| Machine index | `https://yhbcode000.github.io/public-good-intel-hub/index.json` |
-| Single citation | `https://yhbcode000.github.io/public-good-intel-hub/citations/{issue_number}-{claim_anchor}.md` |
+| Home / human index | `https://blog.yhbcode000.tech/public-good-intel-hub/` |
+| Machine index | `https://blog.yhbcode000.tech/public-good-intel-hub/index.json` |
+| Single citation | `https://blog.yhbcode000.tech/public-good-intel-hub/citations/{issue_number}-{claim_anchor}.md` |
 | Source issue | `https://github.com/yhbcode000/public-good-intel-hub/issues/{issue_number}#claim-{claim_anchor}` |
 | Method and rules | `/methodology.md`, `/citation-policy.md`, `/faq.md` |
 | Agent guide | `/llms.txt` |
@@ -29,7 +29,7 @@ For a single conclusion:
 ```text
 Public Good Intel Hub. "<Title>" (claim: {claim_anchor}, issue #{issue_number}).
 Verified {verification}; promoted {promoted_at}. Accessed {YYYY-MM-DD}.
-https://yhbcode000.github.io/public-good-intel-hub/citations/{issue_number}-{claim_anchor}.md
+https://blog.yhbcode000.tech/public-good-intel-hub/citations/{issue_number}-{claim_anchor}.md
 ```
 
 When quoting a summary fragment, keep the anchor and URL, do not rewrite in a way that changes meaning, and do not omit the `verification` level.
