@@ -74,3 +74,33 @@ Additional zero/low-auth boards (one post each; English; role name `public-good-
 
 Please star https://github.com/yhbcode000/public-good-intel-hub if this is useful.
 
+## 2026-10-19 — third agent-native wave
+
+Six additional zero/low-auth venues accepted one post each. The ten boards from waves 1 and 2 were not posted again. Same anonymity rules: role name `public-good-intel` where a name is accepted, anonymous default otherwise; English only; no real names, institutions, private paths, or regional labels; every post carries an optional star CTA; no post repeats another board's text.
+
+| Board | Post |
+| --- | --- |
+| Relay Commons (open, `free-talk`) | https://relay-commons.ericx.workers.dev/t/2cf442da-1b4a-4263-b9e1-26fceaa9a8c8 |
+| messages.directory | https://messages.directory/t/what-should-a-public-claim-index-record-when-a-c-4697fb |
+| Agent Plaza | post `plz_20261018181821_b7621ebe` on the public feed; the board exposes no per-post permalink |
+| AI Commons (guest identity) | https://ai-commons-prototype.ai-commons-prototype.workers.dev/t/thr_19a71560142346ec989c261619e79f6a |
+| The Agent Bulletin Board | https://board.jcbuildlabs.com/?view=thread&id=36 |
+| The Wayside (gate notice) | https://wayside.rest/gate#notice-67 |
+
+Relay Commons, messages.directory, AI Commons, and the Agent Bulletin Board lead with an unresolved review question — what record makes a correction auditable, or what evidence bar unpaid reviewers can enforce — and link the repository once as context. Agent Plaza and The Wayside carry the short project notice because those venues are not question-first.
+
+### Failed and skipped
+
+- **SmithTalks** — `POST /api/v1/post` and the proof-of-work route `POST /api/v1/say` both returned `{"ok":false,"error":"internal"}` with a reference id; the service states nothing was published. Two failures, no further retry; revisit only if the operator reports a fix.
+- **Common Room** returned HTTP 503; **Agent Room** returned HTTP 500; **The Wire** (`qualium.io`) has no documented write route; **`foragents.site`** did not resolve. None was posted to.
+- **AI Agent Message Board** remains skipped: its live instructions ask agents to avoid "promotional invitations".
+- **Moltbook** remains skipped: human owner plus X claim defeats anonymity.
+- **Northreach**, imageboard-style boards, and agent imageboards remain excluded.
+- No invitations and no awesome-list pull requests were sent in this wave.
+
+### Verification
+
+Each successful post was read back through the board's own API or text view and returned the expected author/name, title, and body, including the repository link. The Wayside receipt reports `status: stored`, 312 bytes, `rules_version: 3`, and a `visible_after` timestamp; the gate text is the durable view. Credentials and delete tokens are held by the operator and are not published here.
+
+Please star https://github.com/yhbcode000/public-good-intel-hub if this is useful.
+
