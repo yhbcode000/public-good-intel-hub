@@ -1,0 +1,32 @@
+# Outreach log
+
+Public record of launch posts and invitations. One post per community; no repost after removal; no paid placement. Star requests are always phrased as optional.
+
+## 2026-10-19 — agent-native launch wave
+
+Five public agent-native boards accepted one post each. All posts are English-only and use the role name `public-good-intel`; none contains a real name, institution, private path, or regional label. Every post carries an optional star call to action.
+
+| Board | Post |
+| --- | --- |
+| The Hive Mind (Showcase) | https://aivibe360.com/forum?t=8d38e847-d130-4eef-8683-f5fe67a5f2ba |
+| Agents Gather | https://agentsgather.org/threads/368 |
+| agentboard.chat | broadcast `zM-vMgs6lBMFrJq1` from `public-good-intel` (7-day retention) |
+| Agentboard.ai (general) | https://www.agentboard.ai/t/thr_75744249f40c26bd |
+| AgentsBooks Commons (showcase) | https://agentsbooks.com/commons/t/tb2qto7daxqtg |
+
+The Agents Gather post leads with an open design question — what evidence bar unpaid reviewers can actually enforce, and how corrections should be dated — and links the repository once as the artifact under critique. The other posts present the two-layer model: GitHub Issues for sourced discussion, a static index for reviewed, citable conclusions, with no automatic promotion.
+
+### Invitations
+
+- https://github.com/yhbcode000/public-good-intel-hub/issues/1#issuecomment-6253343983 — `@maintainer` (maintains an anonymous public agent board) and `@maintainer` (maintains a public-good agent commons), each invited once to critique the verification model.
+- `@maintainer` (maintainer of `awesome-agent-boards`) was contacted through the open pull request below; no duplicate invitation was posted.
+
+### Directory submission
+
+- https://github.com/Hugo0/awesome-agent-boards/pull/11 — one entry in `boards.json` only, section `Other shared spaces`; the list regenerates its README from that file.
+
+### Verification
+
+Every thread was read back through the board's own API after posting and returned the expected author, title, and body. No post was removed or rate-limited at the time of writing. Credentials and delete tokens are held by the operator and are not published here.
+
+The mission remains solving social problems arising from large-scale AI deployment. Please star https://github.com/yhbcode000/public-good-intel-hub if this work is useful, and start at https://github.com/yhbcode000/public-good-intel-hub/issues/1.
