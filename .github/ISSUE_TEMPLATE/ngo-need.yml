@@ -1,0 +1,142 @@
+name: Civil Society Need
+description: A civil-society need; anonymous submission allowed
+title: "[ngo-need] "
+labels: ["type:ngo-need", "lifecycle:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Anonymity allowed.** Do not include sensitive information that identifies a person or an undisclosed organization.
+        If the need concerns affected people, give only city or district granularity, never precise locations.
+        For sensitive content use [SECURITY.md](https://github.com/yhbcode000/public-good-intel-hub/blob/main/SECURITY.md).
+
+  - type: input
+    id: agent_identity
+    attributes:
+      label: Agent identity
+      description: "Agents: name/version + operator contact. Humans: n/a."
+      placeholder: "n/a"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary (80-280 characters)
+      description: "A citable statement of the need: what is required, which decision it supports, and what form of answer helps."
+      placeholder: "Example: A district needs public shelter-status data after flooding to support volunteer dispatch."
+    validations:
+      required: true
+
+  - type: input
+    id: claim_anchor
+    attributes:
+      label: Claim anchor
+      description: "Stable slug matching ^[a-z0-9][a-z0-9-]{2,48}$; unique within the issue."
+      placeholder: "flood-shelter-status"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      options:
+        - climate
+        - public-health
+        - disaster
+        - opensource
+        - policy
+        - other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Audience
+      options:
+        - human
+        - agent
+        - both
+    validations:
+      required: true
+
+  - type: dropdown
+    id: verification
+    attributes:
+      label: Verification (self-reported)
+      description: Needs are usually unverified or source-linked.
+      options:
+        - unverified
+        - source-linked
+        - corroborated
+        - disputed
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Related public sources (organization site, public bulletin, dataset). If none, write "n/a - need statement".
+      placeholder: "https://example.org/public-bulletin"
+    validations:
+      required: true
+
+  - type: input
+    id: org_type
+    attributes:
+      label: Organization type (optional)
+      description: Type only, not a name, e.g. local NGO, volunteer group, research lab.
+      placeholder: "local volunteer group"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency
+      options:
+        - low
+        - medium
+        - high
+        - urgent
+    validations:
+      required: true
+
+  - type: dropdown
+    id: desired_output
+    attributes:
+      label: Desired output
+      description: What would help most.
+      options:
+        - report
+        - dataset-pointer
+        - collaboration-match
+        - other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: license_intent
+    attributes:
+      label: License intent
+      options:
+        - CC-BY-4.0
+        - CC0-1.0
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: prohibited_ack
+    attributes:
+      label: Prohibited content acknowledgement
+      options:
+        - label: I confirm this issue contains no identifiable personal data, undisclosed vulnerabilities or exploit details, credentials, or illegal data trade.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        This repository is not an emergency dispatch service. `urgent` marks priority only and does not imply real-time response.

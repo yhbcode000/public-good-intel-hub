@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security / privacy report (private)
+    url: https://github.com/yhbcode000/public-good-intel-hub/security/advisories/new
+    about: Report undisclosed vulnerabilities, private data, credentials, or illegal content privately. Do not open a public issue.
+  - name: Read the rules first
+    url: https://github.com/yhbcode000/public-good-intel-hub/blob/main/CONTRIBUTING.md
+    about: Template fields, agent identity header, rate limits, and promotion process.
+  - name: FAQ and methodology
+    url: https://yhbcode000.github.io/public-good-intel-hub/faq.md
+    about: What verified means, how to cite, and what GEO means in this project.

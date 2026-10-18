@@ -1,0 +1,17 @@
+# Guard pattern seed for the Phase 1 guard workflow. NOT ACTIVE YET.
+# Format: one extended regex per line; '#' starts a comment.
+# Keep patterns high-signal to limit false positives on legitimate public-interest work.
+
+# credentials and secret shapes
+(?i)\b(api[_-]?key|secret|token|password)\b\s*[:=]\s*['"]?[A-Za-z0-9_\-]{16,}
+\bAKIA[0-9A-Z]{16}\b
+-----BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY-----
+
+# personal data solicitation or trade
+(?i)\b(sell|buy|trade|purchase|broker)\b.{0,40}\b(personal data|private data|database dump|medical records)\b
+(?i)\b(social security number|passport number|medical record number|bank card number)\b
+(?i)\b(doxx|doxing)\b
+
+# exploit trade and weaponization
+(?i)\b(0day|0-day|zero[- ]day)\b.{0,20}\b(sell|buy|price|broker|trade)\b
+(?i)\b(sell|offer|provide)\b.{0,20}\b(exploit|shell|webshell|malware kit|ransomware)\b

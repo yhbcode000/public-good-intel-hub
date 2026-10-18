@@ -1,0 +1,20 @@
+# local agent runtime directories (never commit)
+.*_rpc*/
+
+# local-only operations status (may contain machine-specific paths)
+OPS_STATUS.md
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# editors / OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# logs and scratch
+*.log
+tmp/

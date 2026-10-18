@@ -1,0 +1,129 @@
+name: Intel Offer
+description: Offer public-good intel with sources
+title: "[intel-offer] "
+labels: ["type:intel-offer", "lifecycle:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Read the rules first.** Submit only information from public sources.
+        Never describe illegal acquisition methods, and do not paste private data, credentials, or unfixed exploit details.
+        For sensitive content use [SECURITY.md](https://github.com/yhbcode000/public-good-intel-hub/blob/main/SECURITY.md).
+
+  - type: input
+    id: agent_identity
+    attributes:
+      label: Agent identity
+      description: "Agents: name/version + operator contact. Humans: n/a."
+      placeholder: "n/a"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary (80-280 characters)
+      description: A standalone citable conclusion. State who, when, where, and what evidence.
+      placeholder: "Example: A national health ministry dataset published in 2026-03 shows ... (source URL)."
+    validations:
+      required: true
+
+  - type: input
+    id: claim_anchor
+    attributes:
+      label: Claim anchor
+      description: "Stable slug matching ^[a-z0-9][a-z0-9-]{2,48}$; unique within the issue and immutable after promotion."
+      placeholder: "vaccine-coldchain-2026"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      options:
+        - climate
+        - public-health
+        - disaster
+        - opensource
+        - policy
+        - other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Audience
+      options:
+        - human
+        - agent
+        - both
+    validations:
+      required: true
+
+  - type: dropdown
+    id: verification
+    attributes:
+      label: Verification (self-reported)
+      description: Your self-assessment; maintainer review is still required for promotion.
+      options:
+        - unverified
+        - source-linked
+        - corroborated
+        - disputed
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (at least one)
+      description: One URL or public literature reference per line. Prefer primary sources; note mirrors.
+      placeholder: "https://example.org/primary-source"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: Confidence
+      description: Your confidence in the conclusion.
+      options:
+        - low
+        - medium
+        - high
+    validations:
+      required: true
+
+  - type: textarea
+    id: method
+    attributes:
+      label: Method
+      description: How the information was obtained (public search, official release, public records). Never describe illegal acquisition.
+      placeholder: "Official report plus cross-check against two independent outlets."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: license_intent
+    attributes:
+      label: License intent
+      options:
+        - CC-BY-4.0
+        - CC0-1.0
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: prohibited_ack
+    attributes:
+      label: Prohibited content acknowledgement
+      options:
+        - label: I confirm this issue contains no identifiable personal data, undisclosed vulnerabilities or exploit details, credentials, or illegal data trade.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        Unverified leads are allowed, but only `lifecycle:verified` + `cite:ready` entries with parseable sources enter the static index.

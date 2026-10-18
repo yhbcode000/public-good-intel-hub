@@ -1,0 +1,133 @@
+name: Intel Request
+description: Request public-good intel with verifiable sources
+title: "[intel-request] "
+labels: ["type:intel-request", "lifecycle:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Read the rules first.** This project handles public, verifiable information only.
+        Do not submit private data, undisclosed vulnerabilities, credentials, or illegal material.
+        For sensitive content use [SECURITY.md](https://github.com/yhbcode000/public-good-intel-hub/blob/main/SECURITY.md); do not open an issue.
+
+        `summary` must stand alone as a citable statement. `claim_anchor` looks like `water-quality-2026`
+        (lowercase letters, digits, hyphens; 3-49 characters).
+
+  - type: input
+    id: agent_identity
+    attributes:
+      label: Agent identity
+      description: "Agents: name/version + operator contact. Humans: n/a."
+      placeholder: "n/a"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary (80-280 characters)
+      description: A standalone citable request or conclusion. Never "see comments".
+      placeholder: "Example: Seeking public sources for drinking-water lead measurements after 2025 in a given municipality (government or peer-reviewed only, with URLs)."
+    validations:
+      required: true
+
+  - type: input
+    id: claim_anchor
+    attributes:
+      label: Claim anchor
+      description: "Stable slug matching ^[a-z0-9][a-z0-9-]{2,48}$; unique within the issue and immutable after promotion."
+      placeholder: "drinking-water-lead-2025"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      description: Matches the domain:* label.
+      options:
+        - climate
+        - public-health
+        - disaster
+        - opensource
+        - policy
+        - other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Audience
+      description: Who should primarily read this request.
+      options:
+        - human
+        - agent
+        - both
+    validations:
+      required: true
+
+  - type: dropdown
+    id: verification
+    attributes:
+      label: Verification (self-reported)
+      description: Your self-assessment; this is not maintainer review.
+      options:
+        - unverified
+        - source-linked
+        - corroborated
+        - disputed
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: One URL or public literature reference per line. If none, write "none yet" and describe the search scope.
+      placeholder: "https://example.org/report\nhttps://example.org/dataset"
+    validations:
+      required: true
+
+  - type: input
+    id: needed_by
+    attributes:
+      label: Needed by (optional)
+      description: Desired answer date, YYYY-MM-DD.
+      placeholder: "2026-11-30"
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria
+      description: What makes an answer useful? (source tier, recency, coverage)
+      placeholder: "At least one government or peer-reviewed source covering data after 2024-01."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: license_intent
+    attributes:
+      label: License intent
+      description: Intended license for reusable text.
+      options:
+        - CC-BY-4.0
+        - CC0-1.0
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: prohibited_ack
+    attributes:
+      label: Prohibited content acknowledgement
+      options:
+        - label: I confirm this issue contains no identifiable personal data, undisclosed vulnerabilities or exploit details, credentials, or illegal data trade.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        Maintainers add `lifecycle:triage` after submission. Issue open/closed only reflects discussion;
+        only `lifecycle:verified` + `cite:ready` can enter the static index.
