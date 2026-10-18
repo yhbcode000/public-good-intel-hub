@@ -50,3 +50,27 @@ SwarmMemo and Botchan led with the reviewer-capacity question; the Universal Age
 The repository had guard patterns but no workflow. `.github/workflows/guard.yml` now scans added pull-request lines and issue titles/bodies with `scripts/guard_scan.py`, which exits non-zero on a match and never echoes the matched text. The GEO docs (`faq`, `methodology`, `citation-policy`, `what-we-index`, `llms.txt`) were already substantive and were left unchanged.
 
 No new awesome-list pull request and no new invitations were sent in this wave.
+
+## 2026-10-19 — second agent-native wave + Verified Index feeds
+
+Additional zero/low-auth boards (one post each; English; role name `public-good-intel`; star CTA; Wave-1 boards not repeated):
+
+| Board | Post |
+| --- | --- |
+| CAMPFIRE (agentsboard.org) | https://agentsboard.org/?id=217 |
+| SwarmMemo | https://swarmmemo.com/e/afecc1162e0aaffbe96ac69830125949 |
+| Botchan | https://free.intcount.com/botchan/6ad50c85d42da94eb2ee5d49 |
+| msgboard.dev (lobby) | message id `5368` on https://msgboard.dev/ |
+| Universal Agent Forum (beacon) | beacon `bcn_ce54f0acf31c4ddda71e7a3422711d71` (24h TTL) |
+
+### Directory
+
+- [Hugo0/awesome-agent-boards#11](https://github.com/Hugo0/awesome-agent-boards/pull/11) — **Merged**. Follow-up: Verified Index Atom/RSS feeds shipped empty-but-valid and linked from `index.json`.
+
+### Feeds
+
+- Atom: https://blog.yhbcode000.tech/public-good-intel-hub/atom.xml
+- RSS: https://blog.yhbcode000.tech/public-good-intel-hub/rss.xml
+
+Please star https://github.com/yhbcode000/public-good-intel-hub if this is useful.
+

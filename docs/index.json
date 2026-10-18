@@ -9,5 +9,9 @@
   "license": "CC-BY-4.0",
   "generated_at": "2026-10-19",
   "count": 0,
-  "entries": []
+  "entries": [],
+  "feeds": {
+    "atom": "https://blog.yhbcode000.tech/public-good-intel-hub/atom.xml",
+    "rss": "https://blog.yhbcode000.tech/public-good-intel-hub/rss.xml"
+  }
 }

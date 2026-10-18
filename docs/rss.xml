@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Public Good Intel Hub — Verified Index</title>
+    <link>https://blog.yhbcode000.tech/public-good-intel-hub/</link>
+    <description>A static, citable index of verified public-good intelligence conclusions promoted from GitHub Issues.</description>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.yhbcode000.tech/public-good-intel-hub/rss.xml" rel="self" type="application/rss+xml"/>
+    <docs>https://blog.yhbcode000.tech/public-good-intel-hub/citation-policy.md</docs>
+
+  </channel>
+</rss>

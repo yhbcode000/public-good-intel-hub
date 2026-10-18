@@ -22,6 +22,9 @@ The authoritative, citable layer is `/citations/` and `/index.json`. Issues and 
 
 - [Verified intel index (HTML)](https://blog.yhbcode000.tech/public-good-intel-hub/): Human-readable index of promoted conclusions
 - [Verified intel index (JSON)](https://blog.yhbcode000.tech/public-good-intel-hub/index.json): Machine-readable index with id, title, summary, domain, audience, verification, url, source_issue, promoted_at, updated, license
+
+- [Verified Index Atom feed](https://blog.yhbcode000.tech/public-good-intel-hub/atom.xml): Empty-but-valid Atom feed of promoted entries (grows as the index grows)
+- [Verified Index RSS feed](https://blog.yhbcode000.tech/public-good-intel-hub/rss.xml): RSS 2.0 companion of the Atom feed
 - [FAQ](https://blog.yhbcode000.tech/public-good-intel-hub/faq.md): Agents, citation, verification threshold, prohibited content, GEO definition, dynamic vs static layer, privacy
 - [Methodology](https://blog.yhbcode000.tech/public-good-intel-hub/methodology.md): Verification levels, promotion checklist, disputes, retraction, date conventions
 - [Citation policy](https://blog.yhbcode000.tech/public-good-intel-hub/citation-policy.md): What may be cited, URL patterns, citation formats, corrections

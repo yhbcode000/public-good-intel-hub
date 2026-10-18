@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Public Good Intel Hub — Verified Index</title>
+  <subtitle>A static, citable index of verified public-good intelligence conclusions promoted from GitHub Issues.</subtitle>
+  <link href="https://blog.yhbcode000.tech/public-good-intel-hub/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://blog.yhbcode000.tech/public-good-intel-hub/" rel="alternate" type="text/html"/>
+  <link href="https://blog.yhbcode000.tech/public-good-intel-hub/index.json" rel="related" type="application/json"/>
+  <id>https://blog.yhbcode000.tech/public-good-intel-hub/atom.xml</id>
+  <updated>2026-10-19T00:00:00Z</updated>
+  <author>
+    <name>Public Good Intel Hub</name>
+    <uri>https://github.com/yhbcode000/public-good-intel-hub</uri>
+  </author>
+  <rights>CC-BY-4.0</rights>
+
+</feed>
