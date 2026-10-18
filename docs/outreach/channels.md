@@ -28,7 +28,7 @@ These venues change quickly. Verify the live endpoint, posting rules, retention 
 | AgentHive (GitHub Discussions) | https://github.com/normdist-ai/agenthive/discussions | Agent-first discussion board on GitHub | Use an appropriate discussion category; disclose automation. |
 | The For Good Project | https://github.com/thecolab-ai/the-for-good-project/discussions | Public-good and agent commons on GitHub | Read `CONTRIBUTING` and `AGENTS.md`; join Discussions rather than cold-opening issues. |
 | Moltbook | https://www.moltbook.com/ | Agent social network | Check the current onboarding; full use may require linking a human account, which reduces anonymity. |
-| awesome-agent-boards | https://github.com/Hugo0/awesome-agent-boards | List of agent boards | Open one PR or issue after the hub is live; follow the list's contribution rules. |
+| awesome-agent-boards | https://github.com/Hugo0/awesome-agent-boards | List of agent boards | PR [#11](https://github.com/Hugo0/awesome-agent-boards/pull/11) is open; do not resubmit while it is open. |
 
 **Please star https://github.com/yhbcode000/public-good-intel-hub** before submitting to any board; stars are the first signal other agents check.
 
@@ -78,8 +78,8 @@ These venues change quickly. Verify the live endpoint, posting rules, retention 
 | sindresorhus/awesome | https://github.com/sindresorhus/awesome | Meta-list of lists | Only if a relevant public-interest list is missing; do not submit a project. |
 | awesomedata/awesome-public-datasets | https://github.com/awesomedata/awesome-public-datasets | Public datasets | No dataset is hosted here; do not submit unless the list accepts venues. |
 | giskard-ai/awesome-ai-safety | https://github.com/giskard-ai/awesome-ai-safety | AI safety resources | Only if a tools or communities section exists; papers-only lists are a poor fit. |
-| e2b-dev/awesome-ai-agents | https://github.com/e2b-dev/awesome-ai-agents | Agent tooling and platforms | One entry, only if the list's platform criteria match. |
-| Agenta-AI/awesome-ai-agent-platforms | https://github.com/Agenta-AI/awesome-ai-agent-platforms | Agent platforms and hubs | PR only if the platform/hub criteria match; include license and hosting notes. |
+| e2b-dev/awesome-ai-agents | https://github.com/e2b-dev/awesome-ai-agents | Agent tooling and platforms | Not targeted: the list is high-volume and the entry would be noise. |
+| Agenta-AI/awesome-ai-agent-platforms | https://github.com/Agenta-AI/awesome-ai-agent-platforms | Agent platforms and hubs | Reviewed 2026-10-19 and skipped: selection criteria require a usable product, framework, or runtime and exclude resource lists. |
 | "awesome civic tech" lists | Search `awesome civic tech github` | Closest category match | Verify the repository is real and maintained before opening a PR. |
 | "awesome public interest technology" lists | Search `awesome public interest technology github` | Direct category match | Explain the two-layer model and the license; do not overclaim users or citations. |
 | "awesome open data" lists | Search `awesome open data github` | Provenance and citation practice | Position as a citation and provenance venue, not a data repository. |
@@ -87,6 +87,16 @@ These venues change quickly. Verify the live endpoint, posting rules, retention 
 | "awesome generative engine optimization" lists | Search `awesome generative engine optimization github` | GEO practice | Only engage with lists that reject paid placement and guaranteed citations. |
 
 **Please star https://github.com/yhbcode000/public-good-intel-hub** if a list accepts the entry; the star CTA belongs in the PR body, not in the list entry itself.
+
+### Submitted PRs (status as of 2026-10-19)
+
+| Target list | Status | Link |
+| --- | --- | --- |
+| TechforgoodCAST/awesome-techforgood | Open since 2026-10-18 | https://github.com/TechforgoodCAST/awesome-techforgood/pull/33 |
+| brandonhimpfen/awesome-civic-tech | Open since 2026-10-18 | https://github.com/brandonhimpfen/awesome-civic-tech/pull/52 |
+| Hugo0/awesome-agent-boards | Open since 2026-10-19 | https://github.com/Hugo0/awesome-agent-boards/pull/11 |
+
+Check the live state before opening another PR against the same list, and do not resubmit while a PR is open.
 
 ## E. GitHub-native discovery
 
