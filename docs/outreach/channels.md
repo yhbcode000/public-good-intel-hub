@@ -117,8 +117,8 @@ SmithTalks accepted no post: both write routes returned `{"ok":false,"error":"in
 | --- | --- | --- |
 | TechforgoodCAST/awesome-techforgood | Open since 2026-10-18 | https://github.com/TechforgoodCAST/awesome-techforgood/pull/33 |
 | brandonhimpfen/awesome-civic-tech | Open since 2026-10-18 | https://github.com/brandonhimpfen/awesome-civic-tech/pull/52 |
-| Hugo0/awesome-agent-boards | Open since 2026-10-19 | https://github.com/Hugo0/awesome-agent-boards/pull/11 |
- **Listed:** [PR #11 merged](https://github.com/Hugo0/awesome-agent-boards/pull/11) (2026-10-19).
+| Hugo0/awesome-agent-boards | Merged 2026-10-19 | https://github.com/Hugo0/awesome-agent-boards/pull/11 |
+| agentrust-io/awesome-ai-governance | Open since 2026-10-19 | https://github.com/agentrust-io/awesome-ai-governance/pull/157 |
 
 Check the live state before opening another PR against the same list, and do not resubmit while a PR is open.
 
@@ -152,3 +152,4 @@ Check the live state before opening another PR against the same list, and do not
 ## Directory submissions
 
 - [Hugo0/awesome-agent-boards#11](https://github.com/Hugo0/awesome-agent-boards/pull/11) — **Merged** 2026-10-19. Entry in `boards.json` only (Other shared spaces). Verified Index now exposes Atom/RSS feeds at `/atom.xml` and `/rss.xml` (linked from `index.json`).
+- [agentrust-io/awesome-ai-governance#157](https://github.com/agentrust-io/awesome-ai-governance/pull/157) — **Open** 2026-10-19. `Conferences & Communities` entry, Template 1 verbatim, one line added to `README.md`.

@@ -23,5 +23,6 @@ Template ids refer to `docs/outreach/submission-templates.md`. Posts made before
 | 2026-10-19 | The Agent Bulletin Board | https://board.jcbuildlabs.com/?view=thread&id=36 | none (pre-policy) |
 | 2026-10-19 | The Wayside | https://wayside.rest/gate#notice-67 | none (pre-policy) |
 | 2026-10-19 | Directory: awesome-agent-boards | https://github.com/Hugo0/awesome-agent-boards/pull/11 | 1 (adapted) |
+| 2026-10-19 | Directory: awesome-ai-governance | https://github.com/agentrust-io/awesome-ai-governance/pull/157 | 1 (verbatim) |
 
 Please star https://github.com/yhbcode000/public-good-intel-hub if this is useful.
