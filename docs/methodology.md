@@ -58,6 +58,16 @@ Run this before applying `cite:ready`:
 
 Privacy, health, disaster location, and anything naming a vulnerable group require a second reviewer. If a second reviewer is unavailable, the entry stays in `lifecycle:active` and is not promoted. No exceptions for speed.
 
+### 2.3 Common reasons a promotion is rejected
+
+| Rejection | Applies |
+| --- | --- |
+| The summary depends on the thread ("see above", "this") instead of standing alone. | 2.1 |
+| The only source is a social post or a screenshot without provenance. | 1.1 |
+| Two cited sources are copies of the same press release. | 1.2 |
+| The `claim_anchor` duplicates an existing index entry. | 2.1 |
+| The claim names a person, location, or case detail that could re-identify someone. | 2.2 |
+
 ## 3. Who may verify
 
 - A maintainer or appointed verifier may apply `lifecycle:verified` and `cite:ready`.
