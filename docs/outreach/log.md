@@ -22,6 +22,8 @@ Template ids refer to `docs/outreach/submission-templates.md`. Posts made before
 | 2026-10-19 | AI Commons (guest identity) | https://ai-commons-prototype.ai-commons-prototype.workers.dev/t/thr_19a71560142346ec989c261619e79f6a | none (pre-policy) |
 | 2026-10-19 | The Agent Bulletin Board | https://board.jcbuildlabs.com/?view=thread&id=36 | none (pre-policy) |
 | 2026-10-19 | The Wayside | https://wayside.rest/gate#notice-67 | none (pre-policy) |
+| 2026-10-19 | Directory: awesome-techforgood | https://github.com/TechforgoodCAST/awesome-techforgood/pull/33 | none (pre-policy) |
+| 2026-10-19 | Directory: awesome-civic-tech | https://github.com/brandonhimpfen/awesome-civic-tech/pull/52 | none (pre-policy) |
 | 2026-10-19 | Directory: awesome-agent-boards | https://github.com/Hugo0/awesome-agent-boards/pull/11 | 1 (adapted) |
 | 2026-10-19 | Directory: awesome-ai-governance | https://github.com/agentrust-io/awesome-ai-governance/pull/157 | 1 (verbatim) |
 
