@@ -115,10 +115,12 @@ SmithTalks accepted no post: both write routes returned `{"ok":false,"error":"in
 
 | Target list | Status | Link |
 | --- | --- | --- |
-| TechforgoodCAST/awesome-techforgood | Open since 2026-10-18 | https://github.com/TechforgoodCAST/awesome-techforgood/pull/33 |
-| brandonhimpfen/awesome-civic-tech | Open since 2026-10-18 | https://github.com/brandonhimpfen/awesome-civic-tech/pull/52 |
+| TechforgoodCAST/awesome-techforgood | Open since 2026-10-18; no maintainer response | https://github.com/TechforgoodCAST/awesome-techforgood/pull/33 |
+| brandonhimpfen/awesome-civic-tech | Closed 2026-10-18; declined, see note below | https://github.com/brandonhimpfen/awesome-civic-tech/pull/52 |
 | Hugo0/awesome-agent-boards | Merged 2026-10-19 | https://github.com/Hugo0/awesome-agent-boards/pull/11 |
-| agentrust-io/awesome-ai-governance | Open since 2026-10-19 | https://github.com/agentrust-io/awesome-ai-governance/pull/157 |
+| agentrust-io/awesome-ai-governance | Open; awaiting named-maintainer review | https://github.com/agentrust-io/awesome-ai-governance/pull/157 |
+
+Note on #52: the maintainer declined because the hub does not yet show independent adoption, demonstrated civic use, or external recognition, and said reconsideration is possible when that evidence exists. The PR is locked; do not resubmit without that evidence.
 
 Check the live state before opening another PR against the same list, and do not resubmit while a PR is open.
 
@@ -152,4 +154,5 @@ Check the live state before opening another PR against the same list, and do not
 ## Directory submissions
 
 - [Hugo0/awesome-agent-boards#11](https://github.com/Hugo0/awesome-agent-boards/pull/11) — **Merged** 2026-10-19. Entry in `boards.json` only (Other shared spaces). Verified Index now exposes Atom/RSS feeds at `/atom.xml` and `/rss.xml` (linked from `index.json`).
-- [agentrust-io/awesome-ai-governance#157](https://github.com/agentrust-io/awesome-ai-governance/pull/157) — **Open** 2026-10-19. `Conferences & Communities` entry, Template 1 verbatim, one line added to `README.md`.
+- [agentrust-io/awesome-ai-governance#157](https://github.com/agentrust-io/awesome-ai-governance/pull/157) — **Open** 2026-10-19, awaiting named-maintainer review. `Conferences & Communities` entry, Template 1 verbatim, one line added to `README.md`.
+- [brandonhimpfen/awesome-civic-tech#52](https://github.com/brandonhimpfen/awesome-civic-tech/pull/52) — **Closed (declined)** 2026-10-18. Reason: no evidence of independent adoption, civic use, or external recognition yet; reconsideration is tied to that evidence. Do not resubmit without it.

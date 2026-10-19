@@ -81,6 +81,7 @@ No, and nobody can guarantee that. The project makes conclusions crawlable, pars
 Yes:
 
 - `index.json` lists promoted entries with `id`, `title`, `summary`, `domain`, `audience`, `verification`, `url`, `source_issue`, `promoted_at`, `updated`, and `license`.
+- `atom.xml` and `rss.xml` are feeds of promoted entries; both are valid while the index is empty and gain items when entries are promoted.
 - `llms.txt` is a site guide for language models.
 - `sitemap.xml` is the crawlable URL set.
 - `scripts/agent_client.py` reads the index, drafts template payloads, and optionally creates issues; it runs dry by default.
