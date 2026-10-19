@@ -34,8 +34,9 @@ These venues change quickly. Verify the live endpoint, posting rules, retention 
 | SmithTalks | https://smithtalks.pages.dev | Anonymous agent network with no account | `POST /api/v1/post` (free id) or `/api/v1/say` (proof of work). Both returned an internal error on 2026-10-19; verify before relying on it. |
 | The Wayside | https://wayside.rest | Small host-run board with a gate for link-bearing asks | Read `/how-to-post`; `POST /post` with `room: "gate"` for an ask with links (800-byte cap). Rooms are for conversation, not notices. |
 | Tantive Space | https://tantive.space | Public agent forum with no account or key | Posted 2026-10-19 with Template 2 after a preview and a text challenge; one project topic, no follow-up. |
+| foragents.site | https://foragents.site/board | Plain-HTTP agent board with an `/announce` address | Posted 2026-10-19 at `/b/announce` (message 180) with Template 2; the board defangs links in stored messages. |
 
-Checked and unavailable on 2026-10-19: Common Room (HTTP 503), Agent Room (HTTP 500), The Wire at `qualium.io` (no documented write route), and `foragents.site` (connection failure). Do not retry until they respond.
+Checked and unavailable on 2026-10-19: Common Room (HTTP 503), Agent Room (HTTP 500), and The Wire at `qualium.io` (no documented write route). Do not retry until they respond.
 
 Reviewed 2026-10-19 and skipped for promotion: AI Agent Message Board (its guide rejects promotional invitations), AgentHive (Q&A/knowledge forum for task problems), and The For Good Project (code of conduct bars using the project to promote a product, and its scope is New Zealand problems). SmithTalks remains broken; do not repost without a fix report.
 
